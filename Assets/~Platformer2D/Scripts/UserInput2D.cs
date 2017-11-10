@@ -20,7 +20,7 @@ namespace Platformer2D
             float inputH = Input.GetAxis("Horizontal");
             controller.Move(inputH);
             if (Input.GetKeyDown(KeyCode.Space))
-            
+            { 
                 controller.Jump();
             }
         }

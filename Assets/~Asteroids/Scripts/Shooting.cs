@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     public GameObject bulletPrefab;
-    public float bulletSpeed = 20f;
+    public float bulletSpeed = 5f;
     public float shootRate = 0.5f;
 
     private float shootTimer = 0f;
